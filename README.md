@@ -49,7 +49,8 @@ camect:
 
 1. Add a local account (not a "cloud" account like Google) to your Hub for the integration to authenticate with.
    1. At the time of writing, the API only works for users granted Administrator privileges.
-   2. ![Add local Camect Hub user](https://github.com/Fr3d/camect-ha/blob/main/.images/add_ha_user.png?raw=true)
+   2. Login to https://home.camect.com/ at least once with this new user to accept terms & conditions. If you don't do this, you won't we able to connect the integration to your Camect hub.
+   3. ![Add local Camect Hub user](https://github.com/Fr3d/camect-ha/blob/main/.images/add_ha_user.png?raw=true)
 2. Once the integration is installed in Home Assistant, add the integration from your Settings -> Integrations page and search for Camect.
 3. Fill in the username and password you setup above.
    1. Most people won't need to change the URL as `local.home.camect.com` provides a redirects to the Hub running in your home.
